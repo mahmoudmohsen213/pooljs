@@ -49,21 +49,21 @@ function test1(param1, param2, callback){
   setTimeout(function(){
     console.log('test1: ', param1, param2);
     callback('test1 callback param1');
-  }, 8000);
+  }, 6000);
 }
  
 function test2(param1, param2, param3, callback){
   setTimeout(function(){
     console.log('test2: ', param1, param2, param3);
     callback('test2 callback param1');
-  }, 2000);
+  }, 1000);
 }
 
 function test3(param1, param2, callback){
   setTimeout(function(){
     console.log('test3: ', param1, param2);
     callback('test3 callback param1', 'test3 callback param2');
-  }, 5000);
+  }, 3000);
 }
 
 function test1Callback(param1){

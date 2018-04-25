@@ -1,6 +1,6 @@
 {
   "name": "@mahmoudmohsen213/pooljs",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A lightweight async task queue that limits the invokation of async tasks, and queues up any additional async task in their order of addition, until there is an available slot",
   "main": "pool.js",
   "scripts": {
