@@ -1,0 +1,25 @@
+{
+  "name": "@mahmoudmohsen213/pooljs",
+  "version": "0.0.1",
+  "description": "A lightweight async task queue that limits the invokation of async tasks, and queues up any additional async task in their order of addition, until there is an available slot",
+  "main": "pool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "asynchronous",
+    "pool",
+    "queue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoudmohsen213/pooljs.git"
+  },
+  "author": "mahmoudmohsen213 (https://github.com/mahmoudmohsen213)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahmoudmohsen213/pooljs/issues"
+  },
+  "homepage": "https://github.com/mahmoudmohsen213/pooljs#readme"
+}
